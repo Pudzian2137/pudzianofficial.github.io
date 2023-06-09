@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mariusz Pudzianowski - Pudzianlandia - Cennik</title>
+    <style>
+        body {
+            background-color: #fff;
+            color: #000;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 32px;
+        }
+
+        nav {
+            background-color: #ff0000;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 10px;
+            position: relative;
+        }
+
+        nav ul li a {
+            color: #000;
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #000;
+            color: #fff;
+        }
+
+        nav ul li ul {
+            display: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #ff0000;
+            padding: 0;
+        }
+
+        nav ul li:hover ul {
+            display: block;
+        }
+
+        nav ul li ul li {
+            display: block;
+            width: 100%;
+        }
+
+        nav ul li ul li a {
+            color: #000;
+            padding: 5px 10px;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li ul li a:hover {
+            background-color: #000;
+            color: #fff;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #ff0000;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mariusz Pudzianowski - Pudzianlandia</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Strona główna</a>
+                </li>
+                <li>
+                    <a href="atrakcje.html">Atrakcje</a>
+                </li>
+                <li>
+                    <a href="cennik.html">Cennik</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Cennik biletów</h2>
+        <table>
+            <tr>
+                <th>Typ biletu</th>
+                <th>Wiek</th>
+                <th>Cena</th>
+            </tr>
+            <tr>
+                <td>Bilet dla kidów</td>
+                <td>0-3 lat</td>
+                <td>250 zł</td>
+            </tr>
+            <tr>
+                <td>Bilet dla większych kidów</td>
+                <td>3-10 lat</td>
+                <td>270 zł</td>
+            </tr>
+            <tr>
+                <td>Bilet dla prosów</td>
+                <td>11-16 lat</td>
+                <td>300 zł</td>
+            </tr>
+            <tr>
+                <td>Bilet dla starych</td>
+                <td>17-2115 lat</td>
+                <td>1000 zł</td>
+            </tr>
+        </table>
+    </section>
+
+    <footer>
+        &copy; 2023 Mariusz Pudzianowski. Wszelkie prawa zastrzeżone.
+    </footer>
+</body>
+</html>
